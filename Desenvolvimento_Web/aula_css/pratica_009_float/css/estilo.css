@@ -1,0 +1,64 @@
+/* reset básico */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Estilo do cabeçalho */
+header {
+    text-align: center;
+    background: #0073e6;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+/* estilo das seções */
+section{
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+/*float left*/
+
+.float-left img{
+    float: left;
+    margin-right: 15px;
+}
+
+/* float right*/
+.float-right img{
+    float: right;
+    margin-left: 15px;
+
+}
+
+/* clear para evitar sobreposição */
+.clear{
+    clear: both;
+}
+
+/* sem float*/
+
+.float-none{
+    text-align: center;
+}
+
+/* rodapé */
+footer{
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
